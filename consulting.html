@@ -1,49 +1,38 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-    <meta charset="UTF-8" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <!-- عنوان صفحه (Title) -->
-  <title>درخواست مشاوره رایگان وام | وامیار</title>
+  <title>درخواست مشاوره رایگان وام | وامیـار</title>
   
-  <!-- توضیحات کوتاه و جذاب -->
-  <meta name="description" content="فرم درخواست مشاوره رایگان وام. با بیش از 25 سال تجربه بانکی، بهترین راهنمایی و خدمات خرید و فروش وام در وامیـار." />
+  <meta name="description" content="فرم درخواست مشاوره رایگان وام در وامیـار. با بیش از ۲۰ سال تجربه بانکی، بهترین راهنمایی برای دریافت، خرید و فروش وام." />
   
-  <!-- کلمات کلیدی مرتبط (Keyword) -->
-  <meta name="keywords" content="وام، مشاوره وام، خرید وام، فروش وام، تسهیلات بانکی، وامیـار، مشاوره رایگان وام" />
-  
-  <!-- نویسنده سایت -->
+  <meta name="keywords" content="مشاوره وام، درخواست مشاوره، فرم تماس، خرید و فروش وام، وامیـار" />
   <meta name="author" content="سامان" />
-  
-  <!-- زبان صفحه -->
   <meta http-equiv="Content-Language" content="fa" />
-  
-  <!-- ربات‌های موتور جستجو -->
   <meta name="robots" content="index, follow" />
-  
-  <!-- شبکه‌های اجتماعی (Open Graph) برای بهتر شدن اشتراک گذاری -->
+
+  <!-- Open Graph -->
   <meta property="og:title" content="درخواست مشاوره رایگان وام | وامیـار" />
-  <meta property="og:description" content="با بیش از 25 سال تجربه بانکی، بهترین خدمات مشاوره و خرید و فروش وام." />
+  <meta property="og:description" content="با بیش از ۲۰ سال تجربه بانکی، بهترین خدمات مشاوره و خرید و فروش وام در وامیـار." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://vamyar-iota.vercel.app/consulting.html" />
   <meta property="og:image" content="https://vamyar-iota.vercel.app/vamyar.png" />
-  
-  <!-- Twitter Card (اختیاری برای توییتر) -->
+
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="درخواست مشاوره رایگان وام | وامیـار" />
-  <meta name="twitter:description" content="با بیش از 25 سال تجربه بانکی، بهترین خدمات مشاوره و خرید و فروش وام." />
+  <meta name="twitter:description" content="با بیش از ۲۰ سال تجربه بانکی، بهترین خدمات مشاوره و خرید و فروش وام در وامیـار." />
   <meta name="twitter:image" content="https://vamyar-iota.vercel.app/vamyar.png" />
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>درخواست مشاوره | وامیار</title>
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <header>
   <div class="header-container">
     <div class="logo-area">
-      <img src="vamyar.png" alt="Vamyar Logo" class="logo">
+      <img src="vamyar.png" alt="Vamyar Logo" class="logo" />
       <h1>وامیار</h1>
     </div>
     <nav>
@@ -51,48 +40,46 @@
         <li><a href="index.html">خانه</a></li>
         <li><a href="about.html">درباره ما</a></li>
         <li><a href="services.html">خدمات</a></li>
-        <li><a href="consulting.html">درخواست مشاوره</a></li>
+        <li><a href="consulting.html" aria-current="page">درخواست مشاوره</a></li>
         <li><a href="contact.html">تماس با ما</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
+<main class="container">
+  <h2>درخواست مشاوره رایگان</h2>
+  <p>فرم زیر را تکمیل کنید تا در اولین فرصت با شما تماس بگیریم:</p>
 
+  <form action="https://formspree.io/f/xkgzqwgj" method="POST" class="consulting-form">
+    <label for="name">نام کامل:</label>
+    <input type="text" id="name" name="name" required />
 
-  <main class="container">
-    <h2>درخواست مشاوره رایگان</h2>
-    <p>فرم زیر را تکمیل کنید تا در اولین فرصت با شما تماس بگیریم:</p>
+    <label for="phone">شماره تماس:</label>
+    <input type="tel" id="phone" name="phone" required />
 
-<form action="https://formspree.io/f/xkgzqwgj" method="POST" class="consulting-form">
-  <label for="name">نام کامل:</label>
-  <input type="text" id="name" name="name" required>
+    <label for="type">نوع درخواست:</label>
+    <select id="type" name="type" required>
+      <option value="">-- انتخاب کنید --</option>
+      <option value="مشاوره">مشاوره دریافت وام</option>
+      <option value="فروش وام">فروش وام</option>
+      <option value="خرید وام">خرید وام</option>
+      <option value="دیگر">موارد دیگر</option>
+    </select>
 
-  <label for="phone">شماره تماس:</label>
-  <input type="tel" id="phone" name="phone" required>
+    <label for="message">توضیحات:</label>
+    <textarea id="message" name="message" rows="4" placeholder="توضیحاتی اگر دارید بنویسید..."></textarea>
 
-  <label for="type">نوع درخواست:</label>
-  <select id="type" name="type" required>
-    <option value="">-- انتخاب کنید --</option>
-    <option value="مشاوره">مشاوره دریافت وام</option>
-    <option value="فروش وام">فروش وام</option>
-    <option value="خرید وام">خرید وام</option>
-    <option value="دیگر">موارد دیگر</option>
-  </select>
+    <button type="submit" class="btn">ارسال درخواست</button>
+  </form>
 
-  <label for="message">توضیحات:</label>
-  <textarea id="message" name="message" rows="4" placeholder="توضیحاتی اگر دارید بنویسید..."></textarea>
+  <h4 style="margin-top: 20px; color: #004080;">بعد از ارسال با شما تماس گرفته می‌شود.</h4>
+</main>
 
-  <button type="submit" class="btn">ارسال درخواست</button>
-</form>
-<h4>بعد از ارسال با شما تماس گرفته میشود</h4>
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>© تمامی حقوق متعلق به وامیـار است | طراحی شده توسط سامان</p>
-    </div>
-  </footer>
+<footer>
+  <div class="container">
+    <p>© تمامی حقوق متعلق به وامیـار است | طراحی شده توسط سامان</p>
+  </div>
+</footer>
 </body>
 </html>
-
