@@ -1,49 +1,18 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-    <meta charset="UTF-8" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
-  <!-- عنوان صفحه (Title) -->
-  <title>درخواست مشاوره رایگان وام | وامیار</title>
-  
-  <!-- توضیحات کوتاه و جذاب -->
-  <meta name="description" content="فرم درخواست مشاوره رایگان وام. با بیش از 25 سال تجربه بانکی، بهترین راهنمایی و خدمات خرید و فروش وام در وامیـار." />
-  
-  <!-- کلمات کلیدی مرتبط (Keyword) -->
-  <meta name="keywords" content="وام، مشاوره وام، خرید وام، فروش وام، تسهیلات بانکی، وامیـار، مشاوره رایگان وام" />
-  
-  <!-- نویسنده سایت -->
-  <meta name="author" content="سامان" />
-  
-  <!-- زبان صفحه -->
-  <meta http-equiv="Content-Language" content="fa" />
-  
-  <!-- ربات‌های موتور جستجو -->
-  <meta name="robots" content="index, follow" />
-  
-  <!-- شبکه‌های اجتماعی (Open Graph) برای بهتر شدن اشتراک گذاری -->
-  <meta property="og:title" content="درخواست مشاوره رایگان وام | وامیـار" />
-  <meta property="og:description" content="با بیش از 25 سال تجربه بانکی، بهترین خدمات مشاوره و خرید و فروش وام." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://vamyar-iota.vercel.app/consulting.html" />
-  <meta property="og:image" content="https://vamyar-iota.vercel.app/vamyar.png" />
-  
-  <!-- Twitter Card (اختیاری برای توییتر) -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="درخواست مشاوره رایگان وام | وامیـار" />
-  <meta name="twitter:description" content="با بیش از 25 سال تجربه بانکی، بهترین خدمات مشاوره و خرید و فروش وام." />
-  <meta name="twitter:image" content="https://vamyar-iota.vercel.app/vamyar.png" />
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>تماس با ما | وامیار</title>
-  <link rel="stylesheet" href="style.css">
+  <title>تماس با ما | وامیـار</title>
+  <meta name="description" content="برای تماس مستقیم با وامیـار، از تلفن، واتساپ، ایمیل یا فرم پیام استفاده کنید." />
+  <meta name="keywords" content="تماس با وامیار، شماره تلفن وامیار، واتساپ وامیار، ایمیل وامیار" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <header>
   <div class="header-container">
     <div class="logo-area">
-      <img src="vamyar.png" alt="Vamyar Logo" class="logo">
+      <img src="vamyar.png" alt="Vamyar Logo" class="logo" />
       <h1>وامیار</h1>
     </div>
     <nav>
@@ -52,46 +21,42 @@
         <li><a href="about.html">درباره ما</a></li>
         <li><a href="services.html">خدمات</a></li>
         <li><a href="consulting.html">درخواست مشاوره</a></li>
-        <li><a href="contact.html">تماس با ما</a></li>
+        <li><a href="contact.html" aria-current="page">تماس با ما</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
+<main class="container">
+  <h2>تماس با وامیـار</h2>
+  <p>برای ارتباط مستقیم با ما می‌توانید از اطلاعات زیر استفاده کنید:</p>
 
+  <ul class="contact-info">
+    <li><strong>تلفن:</strong> <a href="tel:09126354585">۰۹۱۲۶۳۵۴۵۸۵</a></li>
+    <li><strong>واتساپ:</strong> <a href="https://wa.me/989126354585" target="_blank" rel="noopener noreferrer">گفتگو در واتساپ</a></li>
+    <li><strong>ایمیل:</strong> <a href="mailto:vamyar.eslamshar@gmail.com">vamyar.eslamshar@gmail.com</a></li>
+    <li><strong>آدرس دفتر:</strong> تهران، اسلامشهر، خیابان ...، ساختمان ...</li>
+  </ul>
 
-  <main class="container">
-    <h2>تماس با وامیار</h2>
-    <p>برای ارتباط مستقیم با ما می‌توانید از اطلاعات زیر استفاده کنید:</p>
+  <h3>ارسال پیام مستقیم</h3>
+  <form action="https://formspree.io/f/xkgzqwgj" method="POST" class="contact-form">
+    <label for="fullname">نام:</label>
+    <input type="text" id="fullname" name="fullname" required />
 
-    <ul class="contact-info">
-      <li><strong>تلفن:</strong> <a href="tel:09126354585">۰۹۱۲۶۳۵۴۵۸۵</a></li>
-      <li><strong>واتساپ:</strong> <a href="https://wa.me/989126354585" target="_blank">گفتگو در واتساپ</a></li>
-      <li><strong>ایمیل:</strong> <a href="mailto:vamyar.eslamshar@gmail.com">vamyar.eslamshar@gmail.com</a></li>
-      <li><strong>آدرس دفتر:</strong> تهران، اسلامشهر، خیابان ...، ساختمان ...</li>
-    </ul>
+    <label for="email">ایمیل شما:</label>
+    <input type="email" id="email" name="email" required />
 
-    <h3>ارسال پیام مستقیم</h3>
-<form action="https://formspree.io/f/xkgzqwgj" method="POST" class="contact-form">
-  <label for="fullname">نام:</label>
-  <input type="text" id="fullname" name="fullname" required>
+    <label for="message">پیام:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
 
-  <label for="email">ایمیل شما:</label>
-  <input type="email" id="email" name="email" required>
+    <button type="submit" class="btn">ارسال پیام</button>
+  </form>
+</main>
 
-  <label for="message">پیام:</label>
-  <textarea id="message" name="message" rows="4" required></textarea>
-
-  <button type="submit" class="btn">ارسال پیام</button>
-</form>
-
-  </main>
-
-  <footer>
-    <div class="container">
-      <p>© تمامی حقوق متعلق به وامیـار است | طراحی شده توسط سامان</p>
-    </div>
-  </footer>
+<footer>
+  <div class="container">
+    <p>© تمامی حقوق متعلق به وامیـار است | طراحی شده توسط سامان</p>
+  </div>
+</footer>
 </body>
 </html>
-
