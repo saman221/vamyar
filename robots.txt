@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://vamyar-iota.vercel.app/sitemap.xml
